@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 export -n CDPATH
+export PERL_BUILD_CPAN_MIRROR="http://mirrors.163.com/cpan"
 
 if [ "$1" = "--debug" ]; then
   export PLENV_DEBUG=1
